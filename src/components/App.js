@@ -14,7 +14,7 @@ class App extends React.Component {
         <Header />
         <Router>
           <div className="body-container">
-            <Route exact path="/" component={Home} />
+           {/* <Route exact path="/" component={Home} /> */}
             <Route exact path="/teacher" component={ClassOverview} />
             <Route exact path="/teacher/class/:class" component={ClassAnalysis} />
             <Route exact path="/student" component={Student} />
